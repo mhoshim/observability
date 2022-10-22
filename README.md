@@ -6,6 +6,7 @@ A Dockerized Grafana/Prometheus/Victoriametrics environment
 - Once instances are up you can connect to `http://localhost:3000` (or `http://<ip of server>:3000`)
 - The default credentials are `admin`/`passw0rd`
 
+``` sh
 ── Docker Containers
     ├── grafana
     ├── prometheus
@@ -13,6 +14,7 @@ A Dockerized Grafana/Prometheus/Victoriametrics environment
     ├── node-exporter
     ├── elasticsearch-exporter
 
+```
 
 VictoriaMetrics is a Open Source Time Series Database (see https://victoriametrics.com)
 
