@@ -59,7 +59,7 @@
       {
         "datasource": {
           "type": "prometheus",
-          "uid": "461wY-44z"
+          "uid": "prometheus-Victoria-metrics"
         },
         "fieldConfig": {
           "defaults": {
@@ -123,7 +123,7 @@
           {
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "system_uptime{host =~ \"^$server$\"}",
@@ -151,7 +151,7 @@
       {
         "datasource": {
           "type": "prometheus",
-          "uid": "461wY-44z"
+          "uid": "prometheus-Victoria-metrics"
         },
         "fieldConfig": {
           "defaults": {
@@ -219,7 +219,7 @@
           {
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "system_load5{host =~ \"^$server$\"}",
@@ -247,7 +247,7 @@
       {
         "datasource": {
           "type": "prometheus",
-          "uid": "461wY-44z"
+          "uid": "prometheus-Victoria-metrics"
         },
         "fieldConfig": {
           "defaults": {
@@ -315,7 +315,7 @@
           {
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "processes_zombies{host =~ \"^$server$\"}",
@@ -343,7 +343,7 @@
       {
         "datasource": {
           "type": "prometheus",
-          "uid": "461wY-44z"
+          "uid": "prometheus-Victoria-metrics"
         },
         "fieldConfig": {
           "defaults": {
@@ -411,7 +411,7 @@
           {
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "processes_total{host =~ \"^$server$\"}",
@@ -439,7 +439,7 @@
       {
         "datasource": {
           "type": "prometheus",
-          "uid": "461wY-44z"
+          "uid": "prometheus-Victoria-metrics"
         },
         "fieldConfig": {
           "defaults": {
@@ -507,7 +507,7 @@
           {
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "processes_total_threads{host =~ \"^$server$\"}",
@@ -535,7 +535,7 @@
       {
         "datasource": {
           "type": "prometheus",
-          "uid": "461wY-44z"
+          "uid": "prometheus-Victoria-metrics"
         },
         "fieldConfig": {
           "defaults": {
@@ -602,7 +602,7 @@
           {
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "100-cpu_usage_idle{host =~ \"^$server$\",cpu = \"cpu-total\"}",
@@ -630,7 +630,7 @@
       {
         "datasource": {
           "type": "prometheus",
-          "uid": "461wY-44z"
+          "uid": "prometheus-Victoria-metrics"
         },
         "fieldConfig": {
           "defaults": {
@@ -697,7 +697,7 @@
           {
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "mem_used_percent{host =~ \"^$server$\"}",
@@ -725,7 +725,7 @@
       {
         "datasource": {
           "type": "prometheus",
-          "uid": "461wY-44z"
+          "uid": "prometheus-Victoria-metrics"
         },
         "fieldConfig": {
           "defaults": {
@@ -793,7 +793,7 @@
           {
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "swap_used_percent{host =~ \"^$server$\"}",
@@ -821,7 +821,7 @@
       {
         "datasource": {
           "type": "prometheus",
-          "uid": "461wY-44z"
+          "uid": "prometheus-Victoria-metrics"
         },
         "fieldConfig": {
           "defaults": {
@@ -889,7 +889,7 @@
           {
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "disk_used_percent{host =~ \"^$server$\",path = \"/\"}",
@@ -917,7 +917,7 @@
       {
         "datasource": {
           "type": "prometheus",
-          "uid": "461wY-44z"
+          "uid": "prometheus-Victoria-metrics"
         },
         "fieldConfig": {
           "defaults": {
@@ -986,7 +986,7 @@
           {
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "cpu_usage_iowait{host =~ \"^$server$\",cpu = \"cpu-total\"}",
@@ -1042,7 +1042,7 @@
       {
         "datasource": {
           "type": "prometheus",
-          "uid": "461wY-44z"
+          "uid": "prometheus-Victoria-metrics"
         },
         "fieldConfig": {
           "defaults": {
@@ -1125,7 +1125,7 @@
           {
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "editorMode": "builder",
             "expr": "cpu_usage_active{host=~\"$server\"}",
@@ -1136,7 +1136,7 @@
           {
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "editorMode": "builder",
             "expr": "cpu_usage_user{host=~\"$server\"}",
@@ -1148,7 +1148,7 @@
           {
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "editorMode": "builder",
             "expr": "cpu_usage_system{host=~\"$server\"}",
@@ -1160,7 +1160,7 @@
           {
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "editorMode": "builder",
             "expr": "cpu_usage_iowait{host=~\"$server\"}",
@@ -1180,7 +1180,7 @@
         "dashes": false,
         "datasource": {
           "type": "prometheus",
-          "uid": "461wY-44z"
+          "uid": "prometheus-Victoria-metrics"
         },
         "editable": true,
         "error": false,
@@ -1238,7 +1238,7 @@
           {
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "editorMode": "builder",
             "expr": "procstat_cpu_usage{host=~\"$server\"}",
@@ -1288,7 +1288,7 @@
         "dashes": false,
         "datasource": {
           "type": "prometheus",
-          "uid": "461wY-44z"
+          "uid": "prometheus-Victoria-metrics"
         },
         "editable": true,
         "error": false,
@@ -1343,7 +1343,7 @@
             "col": "short",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "median(system_load1{host =~ \"$server$\"}) by (host)",
@@ -1375,7 +1375,7 @@
             "col": "medium",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "median(system_load5{host =~ \"$server$\"}) by (host)",
@@ -1407,7 +1407,7 @@
             "col": "long",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "median(system_load15{host =~ \"$server$\"}) by (host)",
@@ -1474,7 +1474,7 @@
         "dashes": false,
         "datasource": {
           "type": "prometheus",
-          "uid": "461wY-44z"
+          "uid": "prometheus-Victoria-metrics"
         },
         "editable": true,
         "error": false,
@@ -1530,7 +1530,7 @@
             "col": "running",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "median(processes_running{host =~ \"$server$\"}) by (host)",
@@ -1560,7 +1560,7 @@
             "col": "blocked",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "median(processes_blocked{host =~ \"$server$\"}) by (host)",
@@ -1590,7 +1590,7 @@
             "col": "sleeping",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "median(processes_sleeping{host =~ \"$server$\"}) by (host)",
@@ -1620,7 +1620,7 @@
             "col": "stopped",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "median(processes_stopped{host =~ \"$server$\"}) by (host)",
@@ -1650,7 +1650,7 @@
             "col": "zombies",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "median(processes_zombies{host =~ \"$server$\"}) by (host)",
@@ -1680,7 +1680,7 @@
             "col": "paging",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "median(processes_paging{host =~ \"$server$\"}) by (host)",
@@ -1710,7 +1710,7 @@
             "col": "unknown",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "median(processes_unknown{host =~ \"$server$\"}) by (host)",
@@ -1800,7 +1800,7 @@
         "dashes": false,
         "datasource": {
           "type": "prometheus",
-          "uid": "461wY-44z"
+          "uid": "prometheus-Victoria-metrics"
         },
         "editable": true,
         "error": false,
@@ -1864,7 +1864,7 @@
             "col": "total",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "median(mem_total{host =~ \"$server$\"}) by (host)",
@@ -1895,7 +1895,7 @@
             "col": "used",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "median(mem_used{host =~ \"$server$\"}) by (host)",
@@ -1926,7 +1926,7 @@
             "col": "cached",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "median(mem_cached{host =~ \"$server$\"}) by (host)",
@@ -1957,7 +1957,7 @@
             "col": "free",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "median(mem_free{host =~ \"$server$\"}) by (host)",
@@ -1988,7 +1988,7 @@
             "col": "buffered",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "median(mem_buffered{host =~ \"$server$\"}) by (host)",
@@ -2054,7 +2054,7 @@
         "dashes": false,
         "datasource": {
           "type": "prometheus",
-          "uid": "461wY-44z"
+          "uid": "prometheus-Victoria-metrics"
         },
         "editable": true,
         "error": false,
@@ -2116,7 +2116,7 @@
           {
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "editorMode": "builder",
             "expr": "procstat_memory_usage{host=~\"$server$\"}",
@@ -2191,7 +2191,7 @@
         "dashes": false,
         "datasource": {
           "type": "prometheus",
-          "uid": "461wY-44z"
+          "uid": "prometheus-Victoria-metrics"
         },
         "editable": true,
         "error": false,
@@ -2252,7 +2252,7 @@
             "col": "in",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "abs(idelta(median(swap_in{host =~ \"$server$\"}) by (host)))",
@@ -2283,7 +2283,7 @@
             "col": "out",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "abs(idelta(median(swap_out{host =~ \"$server$\"}) by (host)))",
@@ -2348,7 +2348,7 @@
         "dashes": false,
         "datasource": {
           "type": "prometheus",
-          "uid": "461wY-44z"
+          "uid": "prometheus-Victoria-metrics"
         },
         "editable": true,
         "error": false,
@@ -2410,7 +2410,7 @@
             "col": "used",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "median(swap_used{host =~ \"$server$\"}) by (host)",
@@ -2441,7 +2441,7 @@
             "col": "total",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "median(swap_total{host =~ \"$server$\"}) by (host)",
@@ -2521,7 +2521,7 @@
             "dashes": false,
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "editable": true,
             "error": false,
@@ -2574,7 +2574,7 @@
                 "alias": "$tag_host: $col",
                 "datasource": {
                   "type": "prometheus",
-                  "uid": "461wY-44z"
+                  "uid": "prometheus-Victoria-metrics"
                 },
                 "dsType": "prometheus",
                 "expr": "abs(ideriv(median(kernel_context_switches{host =~ \"$server$\"}) by (host)))",
@@ -2638,7 +2638,7 @@
             "dashes": false,
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "editable": true,
             "error": false,
@@ -2692,7 +2692,7 @@
                 "col": "forks",
                 "datasource": {
                   "type": "prometheus",
-                  "uid": "461wY-44z"
+                  "uid": "prometheus-Victoria-metrics"
                 },
                 "dsType": "prometheus",
                 "expr": "abs(ideriv(median(kernel_processes_forked{host =~ \"^$server$\"}) by (host)))",
@@ -2756,7 +2756,7 @@
             "dashes": false,
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "editable": true,
             "error": false,
@@ -2820,7 +2820,7 @@
                 "col": "max",
                 "datasource": {
                   "type": "prometheus",
-                  "uid": "461wY-44z"
+                  "uid": "prometheus-Victoria-metrics"
                 },
                 "dsType": "prometheus",
                 "expr": "median(linux_sysctl_fs_file-max{host =~ \"^$server$\"}) by (host)",
@@ -2851,7 +2851,7 @@
                 "col": "opened",
                 "datasource": {
                   "type": "prometheus",
-                  "uid": "461wY-44z"
+                  "uid": "prometheus-Victoria-metrics"
                 },
                 "dsType": "prometheus",
                 "expr": "median(linux_sysctl_fs_file-nr{host =~ \"^$server$\"}) by (host)",
@@ -2880,7 +2880,7 @@
               {
                 "datasource": {
                   "type": "prometheus",
-                  "uid": "461wY-44z"
+                  "uid": "prometheus-Victoria-metrics"
                 },
                 "editorMode": "builder",
                 "expr": "linux_sysctl_fs_file-nr",
@@ -2967,7 +2967,7 @@
         "dashes": false,
         "datasource": {
           "type": "prometheus",
-          "uid": "461wY-44z"
+          "uid": "prometheus-Victoria-metrics"
         },
         "editable": true,
         "error": false,
@@ -3026,7 +3026,7 @@
             "col": "CLOSED",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "median(netstat_tcp_close{host =~ \"$server$\"}) by (host)",
@@ -3057,7 +3057,7 @@
             "col": "CLOSE_WAIT",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "median(netstat_tcp_close_wait{host =~ \"$server$\"}) by (host)",
@@ -3088,7 +3088,7 @@
             "col": "CLOSING",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "median(netstat_tcp_closing{host =~ \"$server$\"}) by (host)",
@@ -3119,7 +3119,7 @@
             "col": "ESTABLISHED",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "median(netstat_tcp_established{host =~ \"$server$\"}) by (host)",
@@ -3150,7 +3150,7 @@
             "col": "FIN_WAIT1",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "median(netstat_tcp_fin_wait1{host =~ \"$server$\"}) by (host)",
@@ -3181,7 +3181,7 @@
             "col": "FIN_WAIT2",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "median(netstat_tcp_fin_wait2{host =~ \"$server$\"}) by (host)",
@@ -3212,7 +3212,7 @@
             "col": "LAST_ACK",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "median(netstat_tcp_last_ack{host =~ \"$server$\"}) by (host)",
@@ -3243,7 +3243,7 @@
             "col": "SYN_RECV",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "median(netstat_tcp_syn_recv{host =~ \"$server$\"}) by (host)",
@@ -3274,7 +3274,7 @@
             "col": "SYN_SENT",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "median(netstat_tcp_syn_sent{host =~ \"$server$\"}) by (host)",
@@ -3305,7 +3305,7 @@
             "col": "TIME_WAIT",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "median(netstat_tcp_time_wait{host =~ \"$server$\"}) by (host)",
@@ -3370,7 +3370,7 @@
         "dashes": false,
         "datasource": {
           "type": "prometheus",
-          "uid": "461wY-44z"
+          "uid": "prometheus-Victoria-metrics"
         },
         "editable": true,
         "error": false,
@@ -3433,7 +3433,7 @@
             "alias": "on close",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "abs(idelta(median(nstat_TcpExtTCPAbortOnClose{host =~ \"^$server$\"})))",
@@ -3461,7 +3461,7 @@
             "alias": "on data",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "abs(idelta(median(nstat_TcpExtTCPAbortOnData{host =~ \"^$server$\"})))",
@@ -3489,7 +3489,7 @@
             "alias": "timeout",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "abs(idelta(median(nstat_TcpExtTCPAbortOnTimeout{host =~ \"^$server$\"})))",
@@ -3517,7 +3517,7 @@
             "alias": "failed",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "abs(idelta(median(nstat_TcpExtTCPAbortFailed{host =~ \"^$server$\"})))",
@@ -3545,7 +3545,7 @@
             "alias": "linger",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "abs(idelta(median(nstat_TcpExtTCPAbortOnLinger{host =~ \"^$server$\"})))",
@@ -3573,7 +3573,7 @@
             "alias": "memory",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "abs(idelta(median(nstat_TcpExtTCPAbortOnMemory{host =~ \"^$server$\"})))",
@@ -3636,7 +3636,7 @@
         "dashes": false,
         "datasource": {
           "type": "prometheus",
-          "uid": "461wY-44z"
+          "uid": "prometheus-Victoria-metrics"
         },
         "decimals": 0,
         "editable": true,
@@ -3700,7 +3700,7 @@
             "alias": "estabresets",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "abs(ideriv(median(net_tcp_estabresets{host =~ \"^$server$\"})))",
@@ -3729,7 +3729,7 @@
             "alias": "outrsts",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "abs(ideriv(median(net_tcp_outrsts{host =~ \"^$server$\"})))",
@@ -3758,7 +3758,7 @@
             "alias": "activeopens",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "abs(ideriv(median(net_tcp_activeopens{host =~ \"^$server$\"})))",
@@ -3787,7 +3787,7 @@
             "alias": "passiveopens",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "abs(ideriv(median(net_tcp_passiveopens{host =~ \"^$server$\"})))",
@@ -3877,7 +3877,7 @@
         "dashes": false,
         "datasource": {
           "type": "prometheus",
-          "uid": "461wY-44z"
+          "uid": "prometheus-Victoria-metrics"
         },
         "editable": true,
         "error": false,
@@ -3937,7 +3937,7 @@
             "col": "in datagrams",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "abs(ideriv(median(net_udp_indatagrams{host =~ \"$server\"}) by (host)))",
@@ -3969,7 +3969,7 @@
             "col": "out datagrams",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "abs(ideriv(median(net_udp_outdatagrams{host =~ \"$server\"}) by (host)))",
@@ -4062,7 +4062,7 @@
         "dashes": false,
         "datasource": {
           "type": "prometheus",
-          "uid": "461wY-44z"
+          "uid": "prometheus-Victoria-metrics"
         },
         "editable": true,
         "error": false,
@@ -4122,7 +4122,7 @@
             "col": "in",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "editorMode": "code",
@@ -4156,7 +4156,7 @@
             "col": "out",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "editorMode": "code",
@@ -4224,7 +4224,7 @@
         "dashes": false,
         "datasource": {
           "type": "prometheus",
-          "uid": "461wY-44z"
+          "uid": "prometheus-Victoria-metrics"
         },
         "editable": true,
         "error": false,
@@ -4284,7 +4284,7 @@
             "col": "in",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "editorMode": "code",
@@ -4318,7 +4318,7 @@
             "col": "out",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "editorMode": "code",
@@ -4387,7 +4387,7 @@
         "dashes": false,
         "datasource": {
           "type": "prometheus",
-          "uid": "461wY-44z"
+          "uid": "prometheus-Victoria-metrics"
         },
         "decimals": 1,
         "editable": true,
@@ -4443,7 +4443,7 @@
             "col": "in",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "abs(ideriv(median(net_drop_in{host =~ \"$server\",interface =~ \"$netif\"}) by (host,interface)))",
@@ -4474,7 +4474,7 @@
             "col": "out",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "abs(ideriv(median(net_drop_out{host =~ \"$server\",interface =~ \"$netif\"}) by (host,interface)))",
@@ -4541,7 +4541,7 @@
         "dashes": false,
         "datasource": {
           "type": "prometheus",
-          "uid": "461wY-44z"
+          "uid": "prometheus-Victoria-metrics"
         },
         "editable": true,
         "error": false,
@@ -4596,7 +4596,7 @@
             "col": "in",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "abs(ideriv(median(net_err_in{host =~ \"$server\",interface =~ \"$netif\"}) by (host,interface)))",
@@ -4627,7 +4627,7 @@
             "col": "out",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "abs(ideriv(median(net_err_out{host =~ \"$server\",interface =~ \"$netif\"}) by (host,interface)))",
@@ -4721,7 +4721,7 @@
         "dashes": false,
         "datasource": {
           "type": "prometheus",
-          "uid": "461wY-44z"
+          "uid": "prometheus-Victoria-metrics"
         },
         "editable": true,
         "error": false,
@@ -4785,7 +4785,7 @@
             "col": "read",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "editorMode": "code",
@@ -4819,7 +4819,7 @@
             "col": "write",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "editorMode": "code",
@@ -4887,7 +4887,7 @@
         "dashes": false,
         "datasource": {
           "type": "prometheus",
-          "uid": "461wY-44z"
+          "uid": "prometheus-Victoria-metrics"
         },
         "editable": true,
         "error": false,
@@ -4951,7 +4951,7 @@
             "col": "read",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "editorMode": "code",
@@ -4985,7 +4985,7 @@
             "col": "write",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "editorMode": "code",
@@ -5053,7 +5053,7 @@
         "dashes": false,
         "datasource": {
           "type": "prometheus",
-          "uid": "461wY-44z"
+          "uid": "prometheus-Victoria-metrics"
         },
         "editable": true,
         "error": false,
@@ -5117,7 +5117,7 @@
             "col": "read",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "editorMode": "code",
@@ -5151,7 +5151,7 @@
             "col": "write",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "editorMode": "code",
@@ -5246,7 +5246,7 @@
         "dashes": false,
         "datasource": {
           "type": "prometheus",
-          "uid": "461wY-44z"
+          "uid": "prometheus-Victoria-metrics"
         },
         "editable": true,
         "error": false,
@@ -5311,7 +5311,7 @@
             "col": "total",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "median(disk_total{host =~ \"$server$\",path =~ \"^$mountpoint$\"}) by (host,path)",
@@ -5342,7 +5342,7 @@
             "col": "used",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "median(disk_used{host =~ \"$server$\",path =~ \"^$mountpoint$\"}) by (host,path)",
@@ -5408,7 +5408,7 @@
         "dashes": false,
         "datasource": {
           "type": "prometheus",
-          "uid": "461wY-44z"
+          "uid": "prometheus-Victoria-metrics"
         },
         "editable": true,
         "error": false,
@@ -5479,7 +5479,7 @@
             "col": "used",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "median(disk_inodes_used{host =~ \"$server$\",path =~ \"^$mountpoint$\"}) by (host,path)",
@@ -5510,7 +5510,7 @@
             "col": "total",
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "dsType": "prometheus",
             "expr": "median(disk_inodes_free{host =~ \"$server$\",path =~ \"^$mountpoint$\"}) + median(disk_inodes_used{host =~ \"$server$\",path =~ \"^$mountpoint$\"}) by (host,path)",
@@ -5675,7 +5675,7 @@
           },
           "datasource": {
             "type": "prometheus",
-            "uid": "461wY-44z"
+            "uid": "prometheus-Victoria-metrics"
           },
           "definition": "",
           "hide": 0,
@@ -5707,7 +5707,7 @@
           },
           "datasource": {
             "type": "prometheus",
-            "uid": "461wY-44z"
+            "uid": "prometheus-Victoria-metrics"
           },
           "definition": "",
           "hide": 0,
@@ -5832,7 +5832,7 @@
           },
           "datasource": {
             "type": "prometheus",
-            "uid": "461wY-44z"
+            "uid": "prometheus-Victoria-metrics"
           },
           "definition": "label_values(process_name)",
           "hide": 0,
