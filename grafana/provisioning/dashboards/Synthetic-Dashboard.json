@@ -42,7 +42,7 @@
       {
         "datasource": {
           "type": "prometheus",
-          "uid": "461wY-44z"
+          "uid": "prometheus-Victoria-metrics"
         },
         "fieldConfig": {
           "defaults": {
@@ -126,7 +126,7 @@
           {
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "editorMode": "builder",
             "exemplar": false,
@@ -156,7 +156,7 @@
       {
         "datasource": {
           "type": "prometheus",
-          "uid": "461wY-44z"
+          "uid": "prometheus-Victoria-metrics"
         },
         "fieldConfig": {
           "defaults": {
@@ -263,7 +263,7 @@
           {
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "editorMode": "builder",
             "expr": "http_response_result_code",
@@ -280,7 +280,7 @@
       {
         "datasource": {
           "type": "prometheus",
-          "uid": "461wY-44z"
+          "uid": "prometheus-Victoria-metrics"
         },
         "fieldConfig": {
           "defaults": {
@@ -367,7 +367,7 @@
           {
             "datasource": {
               "type": "prometheus",
-              "uid": "461wY-44z"
+              "uid": "prometheus-Victoria-metrics"
             },
             "editorMode": "builder",
             "expr": "http_response_response_time",
@@ -401,7 +401,7 @@
           },
           "datasource": {
             "type": "prometheus",
-            "uid": "461wY-44z"
+            "uid": "prometheus-Victoria-metrics"
           },
           "definition": "http_response_response_status_code_match",
           "hide": 2,
