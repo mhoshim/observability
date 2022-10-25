@@ -13,7 +13,8 @@ A Dockerized Grafana/Prometheus/Victoriametrics environment
     ├── victoriametrics
     ├── node-exporter
     ├── elasticsearch-exporter
-
+    ├── loki
+    ├── promtail
 ```
 
 - VictoriaMetrics is a Open Source Time Series Database (see https://victoriametrics.com)
@@ -24,3 +25,4 @@ Both VictoriaMetrics and Prometheus write data to disk at roughly 2MB/s speed wh
 
 You can use telegraf input plugins from here, https://github.com/influxdata/telegraf/tree/master/plugins/inputs
 
+- Loki is a horizontally-scalable, highly-available, multi-tenant log aggregation system. It is designed to be very cost effective and easy to operate. It does not index the contents of the logs, but rather a set of labels for each log stream. (see https://github.com/grafana/loki)
