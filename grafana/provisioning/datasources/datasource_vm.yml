@@ -96,7 +96,7 @@ datasources:
   secureJsonData:
     httpHeaderValue1: "docker"
   editable: true
-  isDefault: true
+  isDefault: false
   name: loki
   type: loki
   uid: loki
