@@ -100,5 +100,5 @@ datasources:
   name: loki
   type: loki
   uid: loki
-  url: http://127.0.0.1
+  url: http://127.0.0.1:3100
   version: 1
