@@ -15,7 +15,6 @@ datasources:
   type: prometheus
   # <string, required> access mode. direct or proxy. Required
   access: proxy
-  isDefault: true
   # <string> url
   url: http://localhost:8428
   uid: prometheus-Victoria-metrics
@@ -73,7 +72,7 @@ datasources:
   # <bool> enable/disable with credentials headers
   withCredentials:
   # <bool> mark as default datasource. Max one per org
-  isDefault: true
+  isDefault: false
   # <map> fields that will be converted to json and stored in json_data
   jsonData:
      graphiteVersion: "1.1"
