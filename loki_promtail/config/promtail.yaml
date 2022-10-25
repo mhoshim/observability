@@ -7,14 +7,14 @@ positions:
     filename: /tmp/positions.yaml
 
 clients:
-    - url: http://loki-gateway:80/loki/api/v1/push
+    - url: http://127.0.0.1:80/loki/api/v1/push
       tenant_id: docker
 
 scrape_configs:
   - job_name: generated-logs
     static_configs:
       - targets:
-          - localhost
+          - 127.0.0.1
         labels:
           job: generated-logs
           __path__: /var/log/generated-logs.txt
