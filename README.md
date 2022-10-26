@@ -40,3 +40,5 @@ You can use telegraf input plugins from here, https://github.com/influxdata/tele
 ![system dashboard](./images/system_dashboard.png)
 
 ![log dashboard](./images/logs.png)
+
+![log dashboard](./images/tracing.png)
