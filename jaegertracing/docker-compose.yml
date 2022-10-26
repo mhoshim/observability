@@ -1,0 +1,56 @@
+version: '3.7'
+
+services:
+    hotrod:
+      image: jaegertracing/example-hotrod:latest
+      command: ["-m","prometheus","all"]
+      environment:
+        - JAEGER_AGENT_HOST=localhost
+        - JAEGER_AGENT_PORT=6831
+        - JAEGER_SAMPLER_TYPE=remote
+        - JAEGER_SAMPLING_ENDPOINT=http://127.0.0.1:5778/sampling
+      network_mode: "host"
+      depends_on:
+        - jaeger-agent
+
+    jaeger-collector:
+      image: jaegertracing/jaeger-collector
+      command:
+        - "--cassandra.keyspace=jaeger_v1_dc1"
+        - "--cassandra.servers=cassandra"
+        - "--collector.zipkin.host-port=9411"
+        - "--sampling.initial-sampling-probability=.5"
+        - "--sampling.target-samples-per-second=.01"
+      environment:
+        - SAMPLING_CONFIG_TYPE=adaptive
+      network_mode: "host"
+      restart: on-failure
+      depends_on:
+        - cassandra-schema
+
+    jaeger-query:
+      image: jaegertracing/jaeger-query
+      command: ["--cassandra.keyspace=jaeger_v1_dc1", "--cassandra.servers=cassandra"]
+      network_mode: "host"
+      restart: on-failure
+      depends_on:
+        - cassandra-schema
+
+    jaeger-agent:
+      image: jaegertracing/jaeger-agent
+      command: ["--reporter.grpc.host-port=localhost:14250"]
+      network_mode: "host"
+      restart: on-failure
+      depends_on:
+        - jaeger-collector
+
+    cassandra:
+      image: cassandra:4.0
+      network_mode: "host"
+      restart: on-failure
+
+    cassandra-schema:
+      image: jaegertracing/jaeger-cassandra-schema
+      network_mode: "host"
+      depends_on:
+        - cassandra
