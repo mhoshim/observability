@@ -26,3 +26,9 @@ VictoriaMetrics and Prometheus write data to disk at roughly 2MB/s speed when co
 You can use telegraf input plugins from here, https://github.com/influxdata/telegraf/tree/master/plugins/inputs
 
 - Loki is a horizontally-scalable, highly-available, multi-tenant log aggregation system. It is designed to be very cost effective and easy to operate. It does not index the contents of the logs, but rather a set of labels for each log stream. (see https://github.com/grafana/loki)
+
+## Screenshots
+
+![system dashboard](./images/system_dashboard.png)
+
+![log dashboard](./images/logs.png)
