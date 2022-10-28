@@ -1,5 +1,5 @@
 # Observability Stack
-A Dockerized Grafana/Prometheus/Victoriametrics/Loki environment
+A Dockerized Grafana/Prometheus/Victoriametrics/Loki/Jaeger environment
 
 - Ensure `docker` and `docker-compose` is installed and running (see https://docs.docker.com/get-docker/)
 - Run `docker-compose up`
@@ -21,7 +21,7 @@ A Dockerized Grafana/Prometheus/Victoriametrics/Loki environment
 
 - Prometheus is an open-source monitoring solution for collecting and aggregating metrics as time series data.
 
-- VictoriaMetrics is an Open Source Time Series Database (see https://victoriametrics.com).
+- VictoriaMetrics is an Open Source Time Series Database (see https://github.com/VictoriaMetrics/VictoriaMetrics).
 
 VictoriaMetrics and Prometheus write data to disk at roughly 2MB/s speed when collecting 280K samples per second. Prometheus generates more disk writes spikes with much higher values reaching 50MB/s, while the maximum disk write spike for VictoriaMetrics is 15MB/s. VictoriaMetrics needs up to 5x less RAM and 7x less disk space compared to Prometheus when scraping thousands of node_exporter targets. So you can use one of them.
 
@@ -29,9 +29,9 @@ VictoriaMetrics and Prometheus write data to disk at roughly 2MB/s speed when co
 
 - Promtail is the agent, responsible for gathering logs and sending them to Loki.
 
-- Jaeger is an open-source distributed tracing tool meant to monitor and troubleshoot transactions in distributed systems. (see https://www.jaegertracing.io).
+- Jaeger is an open-source distributed tracing tool meant to monitor and troubleshoot transactions in distributed systems. (see https://github.com/jaegertracing/jaeger).
 
-- Telegraf is the agent for collecting and sending all metrics and events from various systems. (see https://www.influxdata.com/time-series-platform/telegraf/).
+- Telegraf is the agent for collecting and sending all metrics and events from various systems. (see https://github.com/influxdata/telegraf).
 
 You can use telegraf input plugins from here, https://github.com/influxdata/telegraf/tree/master/plugins/inputs
 
